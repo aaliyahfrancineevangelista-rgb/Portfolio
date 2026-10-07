@@ -31,12 +31,6 @@ body {
     --footer-bg: #e9dfd7;
 }
 
-
-/* =========================================
-   DARK MODE COLORS
-   (applied when <html data-theme="dark">)
-   ========================================= */
-
 [data-theme="dark"] {
     --cream: #1d1a18;
     --white: #262220;
@@ -63,11 +57,6 @@ body {
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-
-/* =========================================
-   GENERAL ELEMENTS
-   ========================================= */
-
 a {
     color: inherit;
     text-decoration: none;
@@ -81,11 +70,6 @@ img {
     width: 100%;
     display: block;
 }
-
-
-/* =========================================
-   HEADER / NAVIGATION
-   ========================================= */
 
 .header {
     background-color: var(--white);
@@ -136,13 +120,11 @@ img {
 }
 
 
-/* Navigation hover effect */
 .nav-links a:hover {
     color: var(--dark-blush);
 }
 
 
-/* Mobile hamburger button */
 .menu-toggle {
     display: none;
     border: none;
@@ -153,7 +135,6 @@ img {
 }
 
 
-/* Right side of the navbar (links + buttons) */
 .nav-right {
     display: flex;
     align-items: center;
@@ -161,7 +142,6 @@ img {
 }
 
 
-/* Dark mode toggle button */
 .theme-toggle {
     width: 38px;
     height: 38px;
@@ -194,11 +174,6 @@ img {
     outline-offset: 3px;
 }
 
-
-/* =========================================
-   HERO SECTION
-   ========================================= */
-
 .hero {
     max-width: 1200px;
     min-height: 650px;
@@ -212,7 +187,6 @@ img {
 }
 
 
-/* Hero text */
 .hero-text {
     padding-left: 30px;
 }
@@ -225,7 +199,6 @@ img {
 }
 
 
-/* Main heading */
 .hero h1 {
     font-family: Georgia, "Times New Roman", serif;
     font-size: clamp(55px, 7vw, 90px);
@@ -236,7 +209,6 @@ img {
 }
 
 
-/* Italic headings */
 h1 em,
 h2 em {
     color: var(--dark-blush);
@@ -250,10 +222,6 @@ h2 em {
     margin-bottom: 35px;
 }
 
-
-/* =========================================
-   BUTTONS
-   ========================================= */
 
 .button {
     display: inline-block;
@@ -272,16 +240,10 @@ h2 em {
 }
 
 
-/* Button hover effect */
 .button:hover {
     background-color: var(--brown);
     transform: translateY(-3px);
 }
-
-
-/* =========================================
-   HERO IMAGE
-   ========================================= */
 
 .hero-image {
     position: relative;
@@ -293,7 +255,6 @@ h2 em {
 }
 
 
-/* Small label on image */
 .image-label {
     position: absolute;
 
@@ -314,21 +275,11 @@ h2 em {
     color: var(--brown);
 }
 
-
-/* =========================================
-   GENERAL SECTION
-   ========================================= */
-
 .section {
     max-width: 1200px;
     margin: auto;
     padding: 120px 60px;
 }
-
-
-/* =========================================
-   ABOUT SECTION
-   ========================================= */
 
 .about {
     background-color: var(--white);
@@ -338,8 +289,6 @@ h2 em {
     gap: 40px;
 }
 
-
-/* Section number */
 .section-number {
     color: var(--dark-blush);
     font-family: Georgia, serif;
@@ -347,7 +296,6 @@ h2 em {
 }
 
 
-/* About content */
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -375,7 +323,6 @@ h2 em {
 }
 
 
-/* Text link */
 .text-link,
 .project-link {
     display: inline-block;
@@ -400,16 +347,11 @@ h2 em {
 }
 
 
-/* =========================================
-   PROJECTS SECTION
-   ========================================= */
-
 .projects {
     background-color: var(--cream);
 }
 
 
-/* Projects heading */
 .projects-header {
     display: flex;
     justify-content: space-between;
@@ -425,7 +367,6 @@ h2 em {
 }
 
 
-/* Project cards */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -433,20 +374,17 @@ h2 em {
 }
 
 
-/* Individual project */
 .project-card {
     background-color: var(--white);
     transition: transform 0.3s ease;
 }
 
 
-/* Card hover */
 .project-card:hover {
     transform: translateY(-8px);
 }
 
 
-/* Project image */
 .project-image {
     overflow: hidden;
 }
@@ -459,13 +397,11 @@ h2 em {
 }
 
 
-/* Image hover */
 .project-card:hover .project-image img {
     transform: scale(1.05);
 }
 
 
-/* Project information */
 .project-info {
     padding: 30px;
 }
@@ -477,7 +413,6 @@ h2 em {
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
-
 
 .project-info h3 {
     font-family: Georgia, serif;
@@ -492,10 +427,6 @@ h2 em {
     font-size: 13px;
 }
 
-
-/* =========================================
-   QUOTE SECTION
-   ========================================= */
 
 .quote-section {
     max-width: 1200px;
@@ -521,11 +452,6 @@ h2 em {
     color: var(--dark);
 }
 
-
-/* =========================================
-   CONTACT SECTION
-   ========================================= */
-
 .contact {
     background-color: var(--white);
 
@@ -535,7 +461,6 @@ h2 em {
 
     align-items: center;
 
-    /* Adds space between Contact and Footer */
     margin-bottom: 80px;
 }
 
@@ -584,10 +509,6 @@ h2 em {
 }
 
 
-/* =========================================
-   FOOTER
-   ========================================= */
-
 .footer {
     background-color: var(--footer-bg);
 
@@ -602,7 +523,6 @@ h2 em {
 }
 
 
-/* Footer logo */
 .footer-logo {
     font-family: Georgia, serif;
     letter-spacing: 3px;
@@ -614,11 +534,6 @@ h2 em {
     letter-spacing: 2px;
     text-align: center;
 }
-
-
-/* =========================================
-   RESPONSIVE DESIGN
-   ========================================= */
 
 /* Tablet */
 @media (max-width: 900px) {
@@ -653,28 +568,23 @@ h2 em {
 }
 
 
-/* Mobile */
 @media (max-width: 650px) {
 
-    /* Smaller navigation */
     .navbar {
         padding: 18px 25px;
     }
 
 
-    /* Show hamburger */
     .menu-toggle {
         display: block;
     }
 
 
-    /* Tighter spacing between the two buttons */
     .nav-right {
         gap: 12px;
     }
 
 
-    /* Hide navigation by default */
     .nav-links {
         display: none;
 
@@ -697,7 +607,6 @@ h2 em {
     }
 
 
-    /* Navigation appears when JavaScript adds active */
     .nav-links.active {
         display: flex;
     }
@@ -709,7 +618,6 @@ h2 em {
     }
 
 
-    /* Hero */
     .hero {
         padding: 70px 25px;
         min-height: auto;
@@ -726,7 +634,6 @@ h2 em {
     }
 
 
-    /* Sections */
     .section {
         padding: 80px 25px;
     }
@@ -741,8 +648,6 @@ h2 em {
         margin-bottom: 30px;
     }
 
-
-    /* Projects */
     .projects-header {
         display: block;
     }
@@ -757,14 +662,6 @@ h2 em {
         grid-template-columns: 1fr;
     }
 
-
-    /* Quote */
-    .quote-section {
-        padding: 90px 25px;
-    }
-
-
-    /* Contact */
     .contact-details {
         border-left: none;
         border-top: 1px solid var(--light-line);
@@ -774,7 +671,6 @@ h2 em {
     }
 
 
-    /* Footer */
     .footer {
         padding: 35px 25px;
 
