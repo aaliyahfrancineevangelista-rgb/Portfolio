@@ -45,7 +45,6 @@ body {
     --footer-bg: #151311;
 }
 
-/* Smooth color change for the main areas */
 .header,
 .about,
 .projects,
@@ -88,7 +87,6 @@ img {
     align-items: center;
 }
 
-/* Website logo */
 .logo {
     font-family: Georgia, serif;
     font-size: 18px;
@@ -106,7 +104,6 @@ img {
 }
 
 
-/* Navigation links */
 .nav-links {
     display: flex;
     gap: 35px;
